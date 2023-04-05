@@ -39,3 +39,10 @@ point by 0% from the left and 0% from the top, setting it to the top left corner
 .line:nth-of-type(6) {
     transform: rotate(300deg);
 }
+
+.cabin {
+    background-color: red;
+    width: 20%;
+    height: 20%;
+
+}
