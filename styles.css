@@ -100,6 +100,9 @@ point by 0% from the left and 0% from the top, setting it to the top left corner
         transform: rotate(0deg);
         background-color: yellow;
     }
+    50% {
+        background-color: purple; 
+    }
     100% {
         transform: rotate(-360deg);
     }
