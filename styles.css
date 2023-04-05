@@ -23,3 +23,19 @@ the transform-origin determines around which point the element is rotated.
 Give the .line selector a transform-origin property of 0% 0%. This will offset the origin 
 point by 0% from the left and 0% from the top, setting it to the top left corner of the element.*/
 
+.line:nth-of-type(2) {
+    transform: rotate(60deg);
+}
+
+.line:nth-of-type(3) {
+    transform: rotate(120deg);
+}
+.line:nth-of-type(4) {
+    transform: rotate(180deg);
+}
+.line:nth-of-type(5) {
+    transform: rotate(240deg);
+}
+.line:nth-of-type(6) {
+    transform: rotate(300deg);
+}
