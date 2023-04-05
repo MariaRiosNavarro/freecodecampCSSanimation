@@ -47,5 +47,31 @@ point by 0% from the left and 0% from the top, setting it to the top left corner
     position: absolute;
     border: 2px solid;
     transform-origin: 50% 0%;
+}
 
+.cabin:first-of-type {
+    right: -8.5%;
+    top: 50%;
+}
+
+.cabin:nth-of-type(2) {
+    right:17% ;
+    top:93.5% ;
+}
+
+.cabin:nth-of-type(3) {
+    right: 67% ;
+    top: 93.5%;
+}
+.cabin:nth-of-type(4) {
+    left: -8.5%;
+    top: 50% ;
+}
+.cabin:nth-of-type(5) {
+    left: 17%;
+    top:7% ;
+}
+.cabin:nth-of-type(6) {
+    right:17% ;
+    top: 7%;
 }
