@@ -77,6 +77,9 @@ point by 0% from the left and 0% from the top, setting it to the top left corner
 }
 
 @keyframes wheel {
+    0% {
+        
+    }
     
 }
 
@@ -86,4 +89,15 @@ in the animation sequence, such as 0% or 25%, or use from and to to define
 the start and end of the sequence. @keyframes rules require a name to be assigned
 to them, which you use in other rules to reference. 
 For example, the @keyframes freeCodeCamp { } rule would be named freeCodeCamp.
-.*/
+You now need to define how your animation should start. 
+To do this, create a 0% rule within your @keyframes wheel rule.
+The properties you set in this nested selector will apply at the beginning 
+of your animation.
+As an example, this would be a 12% rule:
+
+@keyframes freecodecamp {
+  12% {
+    color: green;
+  }
+}
+*/
