@@ -100,6 +100,9 @@ point by 0% from the left and 0% from the top, setting it to the top left corner
         transform: rotate(0deg);
         background-color: yellow;
     }
+    25% {
+        background-color: yellow;
+      }
     50% {
         background-color: purple; 
     }
@@ -158,5 +161,10 @@ you can use the ease-in-out timing function. This setting will tell the
 animation to start and end at a slower pace, but move more quickly in 
 the middle of the cycle. Replace linear to ease-in-out in the .cabin selector.
 
-
+Because the animation is on an infinite loop and the start
+and end colors are not the same, the transition appears jerky when
+it switches back to yellow from red.
+To start fixing this, remove the background-color from your 0% selector.
+Create a new 25% selector between your 0% and 50% selectors. 
+Give this new selector the background-color property set to yellow.
 */
