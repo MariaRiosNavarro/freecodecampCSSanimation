@@ -97,20 +97,21 @@ point by 0% from the left and 0% from the top, setting it to the top left corner
 
 @keyframes cabins {
     0% {
-        transform: rotate(0deg);
-        background-color: yellow;
+      transform: rotate(0deg);
     }
     25% {
-        background-color: yellow;
-      }
+      background-color: yellow;
+    }
     50% {
-        background-color: purple; 
+      background-color: purple;
     }
+     75% {
+          background-color: yellow;
+      }
     100% {
-        transform: rotate(-360deg);
+      transform: rotate(-360deg);
     }
-    
-}
+  }
 
 
 
